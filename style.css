@@ -1,0 +1,357 @@
+
+body{
+    width: 100vw;
+    margin: 0;
+}
+/* INICIO DO NAV */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+nav{
+    background-color: black;
+    display: flex;
+   justify-content: space-between; 
+   padding: 15px;
+}
+
+nav h1{
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-right: 3%;
+    
+}
+
+ul li{
+    
+    margin: 20px;
+}
+
+ul li a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.hovernavbar li :hover{
+    color: #666;
+}
+
+ /* FIM DO NAV */
+
+ /* INÍCIO DA PÁGINA INICIAL */
+
+header {
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+header .containernome{
+    padding-left: 5%;
+    max-width: 62rem;
+    color: black;
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .containernome h5{
+    padding-left: 10rem;
+}
+
+
+
+/* FIM DA PÁGINA INICIAL */
+
+
+/* INÍCIO DO SOBRE */
+
+.sobre{
+    justify-content: space-between;
+    background-color:black;
+}
+
+.fotosobre{
+    padding-top: 10%;
+    text-align: center;
+    
+}
+
+.fotoexc{
+
+    width: 7%;
+    height: 7%;
+    
+}
+
+.textosobre{
+    color: #fff;
+    padding-bottom: 9%;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textosobre p{
+    text-align: justify;
+}
+
+/* FIM DO SOBRE */
+
+
+
+/* INÍCIO DO FORMAÇÃO ACADEMICA */
+
+.formacao{
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.fotoformacao{
+    padding-top: 10%;
+    text-align: center;
+    
+}
+
+.fotoforma{
+
+    width: 9%;
+    height: 9%;
+    
+}
+
+.textoformacao{
+    padding-bottom: 9%;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textoformacao p{
+    text-align: justify;
+}
+
+/* FIM DO FORMAÇÃO ACADEMICA */
+
+
+
+/* INÍCIO DO PORTFOLIO */
+
+.projetoss{
+    background-color: black;
+    text-align: center;
+}
+
+.fotoprojetos{
+    padding-top: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+.tituloprojeto{
+    font-size: 2.5rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.listaprojetos{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+.projeto1{
+    width: 30%;
+    height: 30%;
+}
+
+.tituloprojeto1{
+    font-size: 1.7rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.descricaoprojeto1{
+    font-size: 1.1rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projeto2{
+    width: 30%;
+    height: 30%;
+}
+
+.tituloprojeto2{
+    font-size: 1.7rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.descricaoprojeto2{
+    font-size: 1.1rem;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hoverprojeto :hover{
+    color: #666;
+    cursor: pointer;
+}
+
+.titulocontato{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* FIM DO PORTFOLIO */
+
+
+/* INÍCIO DO CONTATO */
+
+.iconecontato{
+    padding-top: 2%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.iconecontato h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+}
+
+
+
+.Contato{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    display: grid;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.form label, input, textarea, button{
+    display: block;
+    
+}
+
+.form input, textarea, button{
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+    
+}
+
+.form input, textarea{
+    margin-bottom: 1rem;
+    border: 0.125rem solid ;
+    border-radius: 1.125rem;
+    box-shadow: 0.3s;
+}
+
+.form label{
+    margin-bottom: 0.5rem;
+}
+
+.form textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+.form button{
+    border: none;
+    border-radius: 99px;
+    color:#fff;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.titulocontato{
+    font-size: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contatoesquerda h2{
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.contatodireita h2{
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contatodireita ul{
+
+    list-style: none;
+    display: block;
+    align-items: center;
+}
+
+.contatodireita ul li a img{
+    padding-top: 5%;
+    width: 8%;
+    height: 8%;
+    
+}
+
+.contatoesquerda{
+    padding-left: 10rem;
+    flex: 2;
+}
+
+.contatodireita{
+    padding-right: 10rem;
+    flex: 1;
+}
+
+
+.contatodireita ul li a{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.contatodireita ul li a span{
+    padding-left: 2rem;
+}
+
+.contatoo{
+    padding-bottom: 5rem;
+}
+
+
+/* FIM DO CONTATO */

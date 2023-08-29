@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Geraldo Alves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- Início da barra de navegação-->
+     
+    <nav class="navbar">
+        <h1>Geraldo Alves</h1>
+        <ul class="hovernavbar">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+            
+        </ul>
+    </nav>
+    <header id="header" class="containerprincipal">
+        <div class="containernome">
+            <h1 class="digitando">- GERALDO ALVES -</h1>
+            <h5 class="digitando2">DESENVOLVEDOR MOBILE</h5>
+        </div>
+        <div class="containerfoto" id="container01">
+            <img src="eu.png" alt="Geraldo" class="fotoeu">
+        </div>
+        <div class="containersobrenome">
+    </header>
+    
+
+ <!-- Início do sobre-->
+ <section class="sobre" id="about">
+    <div class="fotosobre">
+        <img src="exc.jpg" alt="imagem exclamacao" class="fotoexc">
+    </div>
+    <div class="textosobre">
+        <h1>Sobre Mim</h1>
+        <p>Tenho 27 anos, sou casado e tenho um filho de 7 anos. Sou apaixonado por tecnologia, jogos e Física. Alguns anos atrás cursei 3 semestres de Física na Universidade Regional do Cariri no Ceará, mas atualmente curso Análise e Desenvolvimento de Sistemas na UNINTER. Me encontrei no desenvolvimento mobile e desde então venho estudando essa área.  Nas horas vagas costumo ficar com minha familia, assistir séries, filmes, animes ou jogar no computador.</p>
+    </div>
+</section>
+  
+
+    <!-- Início do Formação Acadêmica-->
+    <section class="formacao" id="formacao">
+        <div class="fotoformacao">
+            <img src="formacao.jpg" alt="imagem de formacao" class="fotoforma">
+        </div>
+        <div class="textoformacao">
+            <h1>Formação Acadêmica</h1>
+            <p>Cursando Análise e Desenvolvimento de Sistemas na Uninter e estou me especializando no desenvolvimento mobile multiplataforma com Flutter. Atualmente venho estudando também o desenvolvimento nativo com Kotlin e vendo a parte do back-end com Java e estou em busca da primeira oportunidade de emprego como estágiario. Tenho curso de Inglês onde consegui atingir um nível avançado com o idioma e também curso de eletricista de redes de baixa e média tensão.</p>
+        </div>
+    </section>
+
+    <!-- Início dos projetos-->
+    <section class="projetoss" id="portfolio">
+        
+        <div class="fotoinicial">
+            <img src="mobi.jpg" alt="foto projetos" class="fotoprojetos">
+        </div>
+        <div class="tituloprojeto">
+            <h1>Portfólio</h1>
+        </div>
+        <div>
+            <ul class="listaprojetos">
+                <li>
+                    <div><img src="calculadoraimc.jpg" alt="calculadora imc" class="projeto1"></div>
+                    <div class="hoverprojeto"><a href="https://github.com/GeraldoAlves1/calculadoraIMC" target="_blank"><h3 class="tituloprojeto1">Calculadora IMC</h3></a></div>
+                    <div><p class="descricaoprojeto1">Uma calculadora que verifica se você está ou não no peso ideal.</p></div>
+                </li>
+                <li>
+                    <div><img src="calculadorasimples.jpg" alt="calculadora simples" class="projeto2"></div>
+                    <div class="hoverprojeto"><a href="https://github.com/GeraldoAlves1/calculadorasimples" target="_blank"><h3 class="tituloprojeto2">Calculadora simples</h3></a></div>
+                    <div><p class="descricaoprojeto2">Calculadora que realiza operações simples.</p></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Início dos contatos-->
+    <section class="contatoo" id="contato">
+
+        <div class="iconecontato">
+            <img src="contato.jpg" alt="foto do contato" class="iconecontato">
+            <h2>Contatos</h2>
+        </div>
+
+        <div class="Contato">
+            
+            <div class="contatoesquerda">
+                <h2>Me mande uma mensagem, ou...</h2>
+                <form method="post" class="form">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+    
+            <div class="contatodireita">
+                <h2>fale comigo pelas redes sociais!</h2>
+                <ul>
+                    <li>
+                        <a ><img src="email.png" alt="Email"> <span>geraldoalves.sjunior@hotmail.com</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/geraldo-alves-719322261" target="_blank"><img src="linkedin.png" alt="Linkedin"><span>Linkedin</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/junior_alves778/" target="_blank"><img src="instagram.png" alt="Instagram"><span>Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100002497524240" target="_blank"><img src="facebook.png" alt="Facebook"><span>Facebook</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
